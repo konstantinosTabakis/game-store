@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './assets/css/style.css'
+import { BrowserRouter as Router, Route , Routes} from "react-router-dom"
+import Home from './pages/Home';
+import Games from './pages/Games';
+import About from './pages/About';
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
+import NotFound from './pages/NotFound';
+import { GamesProvider } from './context/games/GamesContext';
+import FetchGames from './utilities/FetchGames';
+import GameDetails from './pages/GameDetails';
+import Favorites from './pages/Favorites';
 function App() {
+
+  
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GamesProvider>
+      <FetchGames/>
+      <Router>
+      <Header/>
+      <Routes>
+        <Route path='/'    element={<Home/>}></Route>
+        <Route path='/about' element={<About/>}></Route>
+        <Route path='/games'   element={<Games/>}></Route>
+        <Route path='/favorites'   element={<Favorites/>}></Route>
+        <Route path='/games/:id'  element={<GameDetails/>}></Route>
+        <Route path='/notFound' element={<NotFound/>}></Route>
+        <Route path='/*' element={<NotFound/>}></Route>
+      </Routes>
+      <Footer/>
+      </Router>
+    </GamesProvider>
   );
 }
 

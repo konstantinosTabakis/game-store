@@ -1,0 +1,30 @@
+.nav-inner{
+    @include flex(space-between);
+    padding-top:   1.5rem;
+    padding-bottom:  1.5rem;
+    color: $primary-color;
+
+    .logo{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .nav-links{
+        @include flex(space-between);
+        gap: 70px ;
+    }
+    .ham-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nav-inner{
+        .ham-menu{
+            display: block;
+        }
+        .nav-links{
+            display: none;
+        }
+
+    }
+}

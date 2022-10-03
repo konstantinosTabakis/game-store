@@ -1,0 +1,376 @@
+@import 'typography', 'utilities','classes', 'header','footer';
+
+//**************Home Page**************
+.hero{
+    position: relative;
+    .hero-inner{
+        @include flex(space-between);
+        gap: 20px;
+        padding-bottom: 100px;
+        .itm-left{
+            max-width: 500px;
+            color: $primary-color;
+    
+            h2{
+                font-weight: 600;
+                font-size: 32px;
+                margin-bottom: 5px;
+                // line-height: 63px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 15px;
+            }
+            .btn{
+                background-color: $primary-color;
+                color: #fff;
+                font-size: 16px;
+                line-height: 24px;
+                display: inline-block;
+            }
+        }
+    
+        .main-img{
+            max-width: 600px;
+        }
+        
+    }
+    .circle-sm{
+        right: -90px;
+        top: 48px;
+    }
+    .circle-md{
+        right: -90px;
+        bottom: 10px;
+    }
+    .circle-bg{
+        left: -200px;
+        bottom: -61px;
+    }
+}
+
+
+
+.live-search{
+    position: relative;
+    z-index: 2;
+    background-color: $primary-color;
+    min-height: 280px;
+    .live-search-inner{
+        @include absolute-center;
+        width: 100%;
+        max-width: 600px;
+        padding: 10px 20px;
+        h2{
+            font-weight: 600;
+            font-size: 28px;
+            color: #FFFFFF;
+            margin-bottom: 36px;
+        }
+        .input-area{
+            position: relative;
+            box-shadow: $shadow;
+            height: 40px;
+            width: 100%;
+            background-color: #fff;
+            border-radius: 5px;
+            input{
+                border: none;
+                font-size: 16px;
+                outline: none;
+                padding: 10px 0 10px 20px;
+                width: 80%;
+            }
+            button{
+                height: 90%;
+                width: 20%;
+                background-color:$secondary-color;
+                color: $primary-color;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+                border-radius: 5px;
+                margin: 1px 0;
+            }
+            .dropdown{
+                background: #fff;
+                position: absolute;
+                top: 42px;
+                overflow-y: auto;
+                box-shadow: $shadow;
+                width: 100%;
+                text-align: start;
+                border-radius: 0 0 12px 12px;
+                color: $primary-color;
+                .dropdown-inner{
+                    max-height: 300px;
+                    padding: 10px;
+                    background: #fff;
+
+                    .itm{
+                        padding: 10px;
+                        cursor: pointer;
+                    }
+                    .itm:hover{
+                        background-color: $main-green;
+                        color: #fff;
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+
+
+.recommended{
+    color: $primary-color;
+    position: relative;
+    .icons{
+        margin: 28px 0 15px;
+    }
+    .heading{
+        font-weight: 600;
+        font-size: 28px;
+    }
+    
+    .circle-sm{
+        bottom: -70px;
+        right: 0;
+    }
+    .circle-md{
+        top: 20px;
+        left: -223px;
+    }
+}
+
+.contact{
+    color: $primary-color;
+    min-height: 700px;
+    position: relative;
+    .form{
+        width: 100%;
+        max-width: 570px;
+        @include absolute-center;
+        padding: 10px;
+        box-shadow: $shadow;
+        background-color: #fff;
+        border-radius: 12px;
+        h2{
+            font-weight: 600;
+            font-size: 20px;
+            margin: 50px 0 5px;
+        }
+        .subheading{
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 20px ;
+        }
+        .form-inner{
+            max-width: 300px;
+            margin: 10px auto;
+
+            label,input{
+                display: block;
+                font-size: 14;
+            }
+            label{
+                margin-bottom: 5px;
+            }
+            input, textarea{
+                width: 100%;
+                border: none;
+                background-color: $bg-gray;
+                padding: 10px ;
+                margin-bottom: 14px;
+                border-radius: 5px;
+                outline: none;
+                resize: none;
+            }
+            .btn{
+                background-color: $primary-color;
+                color: #fff;
+            }
+             
+        }
+        img{
+            position: absolute;
+        }
+    }
+}
+
+
+.game-details{
+    margin: 50px auto ;
+    color: $primary-color;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 800px;
+    .title{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .game-details-inner{
+        @include flex(center,center);
+        gap: 20px;
+        flex-wrap: wrap;
+        .col-left{
+            img{
+                width: 100%;
+                max-width: 400px;
+            }
+        }
+        .col-right{
+            padding: 20px 0;
+            .itm{
+                padding: 20px 0;
+                
+                .label{
+                    font-weight: 700;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .btns{
+        @include flex(center,center);
+        gap: 20px;
+        flex-wrap: wrap;
+        margin: 30px 0;
+        .btn:first-child{
+            background-color: $primary-color;
+            font-size: 16px;
+            a{
+                color: #fff;
+
+            }
+        }
+        .btn:last-child{
+            font-size: 16px;
+            background-color: $active-link-color;
+            color: #fff;
+        }
+    }
+}
+.favorites{
+    margin: 50px 0 ;
+    color: $primary-color;
+    .title{
+        font-size: 28px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .btns{
+        @include flex(center,center);
+        gap: 20px;
+        flex-wrap: wrap;
+        margin: 30px 0;
+        .btn:first-child{
+            background-color: $primary-color;
+            font-size: 16px;
+            a{
+                color: #fff;
+
+            }
+        }
+        .btn:last-child{
+            font-size: 16px;
+            background-color: $active-link-color;
+            color: #fff;
+        }
+    }
+}
+.util-searches{
+    @include flex(space-between, center);
+    width: 100%;
+    max-width: 1050px;
+    margin: 30px auto 10px;
+    color: $primary-color;
+    gap: 20px;
+    label{
+        display: block;
+        margin-bottom: 5px;
+    }
+    select{
+        border: none;
+        outline: none;
+        padding: 10px ;
+        border-radius: 5px;
+        box-shadow: $shadow;
+        color: $primary-color;
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .hero{
+        position: relative;
+        .hero-inner{
+            
+            .main-img{
+                max-width: 400px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .hero{
+        position: relative;
+        .hero-inner{
+            flex-direction: column;
+            .itm-left{
+                padding-top: 50px;
+                text-align: center;
+            }
+            .main-img{
+                max-width: 100%;
+            }
+             
+        }
+    }
+
+    .util-searches{
+        @include flex(center, center);
+        flex-direction: column;
+        gap: 20px;
+        .left,.right{
+            width: 100%;
+            max-width: 400px;
+        }
+        select{
+             
+            width: 100%;
+            min-width: auto;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .live-search{
+        
+        .live-search-inner{
+             
+            h2{
+                font-size: 22px;               
+            }
+            .input-area{
+                 
+                input{
+                     
+                    width: 70%;
+                }
+                button{
+                     
+                    width: 30%;
+                     
+                }
+            }
+        }
+    
+    }
+}

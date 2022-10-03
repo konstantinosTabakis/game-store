@@ -1,0 +1,44 @@
+$primary-color : #455A64;
+$secondary-color: #F0E4F2;
+$active-link-color: #A75EB4;
+$bg-gray: #F5F5F5;
+$main-green: #76c868;
+
+$shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: $bg-gray;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+// ********Mixins ***********
+
+@mixin absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin flex($justify: center,$align: center){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+
+
