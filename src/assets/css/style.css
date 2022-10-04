@@ -18,6 +18,13 @@ body {
   background: #F5F5F5;
 }
 
+body::before {
+  content: '';
+  height: 120px;
+  width: 100%;
+  display: block;
+}
+
 li {
   list-style: none;
 }
@@ -107,7 +114,7 @@ a {
 }
 
 .card-grid .btn {
-  background: #455A64;
+  background: #76c868;
   color: #fff;
 }
 
@@ -133,7 +140,17 @@ a {
   width: 200px;
 }
 
-.nav-inner {
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 0 10%;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+nav .nav-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,12 +165,16 @@ a {
   color: #455A64;
 }
 
-.nav-inner .logo {
+nav .nav-inner .logo {
   font-size: 28px;
   font-weight: 600;
 }
 
-.nav-inner .nav-links {
+nav .nav-inner .right-nav {
+  position: relative;
+}
+
+nav .nav-inner .nav-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,8 +187,77 @@ a {
   gap: 70px;
 }
 
-.nav-inner .ham-menu {
+nav .nav-inner .nav-links .cart-link-wrapper {
+  position: relative;
+}
+
+nav .nav-inner .nav-links .cart-link-wrapper div {
+  position: absolute;
+  background-color: #76c868;
+  border-radius: 50%;
+  color: #fff;
+  top: -15px;
+  left: 80%;
+}
+
+nav .nav-inner .nav-links .cart-link-wrapper .cart-count {
+  padding: 4px 3px;
+}
+
+nav .nav-inner .nav-links .cart-link-wrapper .cart-count-single {
+  padding: 5px 8px;
+}
+
+nav .nav-inner .ham-menu {
   display: none;
+}
+
+.cart-dropdown {
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  color: #455A64;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 350px;
+  border-radius: 12px;
+}
+
+.cart-dropdown .cart-dropdown-inner {
+  padding: 20px;
+}
+
+.cart-dropdown .cart-dropdown-inner .cart-dropdown-title {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.cart-dropdown .cart-dropdown-inner .item-list {
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+.cart-dropdown .cart-dropdown-inner .item-list ul {
+  font-size: 14px;
+  max-height: 150px;
+  padding-right: 20px;
+}
+
+.cart-dropdown .cart-dropdown-inner .item-list ul li {
+  margin-bottom: 15px;
+}
+
+.cart-dropdown .cart-dropdown-inner .item-list ul li .label {
+  font-weight: 600;
+}
+
+.cart-dropdown .cart-dropdown-inner .btn {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-color: #76c868;
+  color: #fff;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 750px) {
@@ -197,7 +287,7 @@ footer .footer-inner {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
-  padding-top: 190px;
+  padding: 220px 20px 20px;
   gap: 100px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;

@@ -61,7 +61,7 @@ function GamesList({games}) {
             <motion.div key={game.id}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}>
+            exit={{ opacity: 0 }} style={{display: 'grid'}}>
               <GameCard el={game} key={game.title}/>
               
             </motion.div>

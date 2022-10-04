@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom"
 import { BsHeartFill } from "react-icons/bs"
 import GamesContext from "../../context/games/GamesContext"
+import CartContext from "../../context/cart/CartContext"
 import { useContext } from "react"
 import { updateGame } from "../../context/games/GamesActions"
 
 function GameCard({el}) {
   const {games,dispatch} = useContext(GamesContext)
+  const {items,dispatcher} = useContext(CartContext)
 
   const heartColor= el.favorite ? '#D81E00': "#c8d8e5"
   const handleFav = ()=>{
@@ -13,6 +15,10 @@ function GameCard({el}) {
     const newItm = {...el,favorite :!el.favorite}
     dispatch({type:'EDIT_GAME', payload: newItm })
     updateGame(el.id, newItm)
+  }
+
+  const addToCart = ()=>{
+    dispatcher({type:'ADD_ITEM', payload: el })
   }
   return (
     <div className="card" key={el.title}>
@@ -30,7 +36,7 @@ function GameCard({el}) {
               </div>
               <div className="price">{el.price}</div>
               <div className="centered">
-                <button className="btn">Add to Cart</button>
+                <button className="btn" onClick={addToCart}>Add to Cart</button>
               </div>
               
            </div>

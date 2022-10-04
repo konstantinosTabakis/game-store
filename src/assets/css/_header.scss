@@ -1,19 +1,93 @@
-.nav-inner{
-    @include flex(space-between);
-    padding-top:   1.5rem;
-    padding-bottom:  1.5rem;
-    color: $primary-color;
-
-    .logo{
-        font-size: 28px;
-        font-weight: 600;
-    }
-    .nav-links{
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    // background: $bg-gray-light;
+    z-index: 10;
+    padding: 0 10%;
+    transition: background-color 1000ms linear;
+    .nav-inner{
         @include flex(space-between);
-        gap: 70px ;
+        padding-top:   1.5rem;
+        padding-bottom:  1.5rem;
+        color: $primary-color;
+    
+        .logo{
+            font-size: 28px;
+            font-weight: 600;
+        }
+        .right-nav{
+            position: relative
+        }
+        .nav-links{
+            @include flex(space-between);
+            gap: 70px ;
+            
+            .cart-link-wrapper{
+                position: relative;
+                div{
+                    position: absolute;
+                    background-color: $main-green;
+                     
+                    border-radius: 50%;
+                    color: #fff;
+                    top: -15px;
+                    left: 80%;
+                }
+                .cart-count{
+                     
+                    padding: 4px 3px;
+                     
+                }
+                .cart-count-single{  
+                    padding: 5px 8px;
+                     
+                }
+            }
+        }
+        .ham-menu{
+            display: none;
+        }
     }
-    .ham-menu{
-        display: none;
+}
+.cart-dropdown{
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    color: $primary-color;
+    box-shadow: $shadow;
+    min-width: 350px;
+    border-radius: 12px;
+    .cart-dropdown-inner{
+        padding: 20px;
+        .cart-dropdown-title{
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+        .item-list{
+            overflow-y: auto;
+            margin-bottom: 15px;
+            ul{
+                font-size: 14px;
+                max-height: 150px;
+                padding-right: 20px;
+                li{
+                    margin-bottom: 15px;
+                    .label{
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        .btn{
+            width: 100%;
+            display: block;
+            text-align: center;
+            background-color: $main-green;
+            color: #fff;
+            font-size: 16px;
+        }
+
     }
 }
 

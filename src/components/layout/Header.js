@@ -1,14 +1,38 @@
-import { NavLink , Link } from "react-router-dom";
+import { NavLink  } from "react-router-dom";
 import {BsFillCartFill, BsList} from 'react-icons/bs'
-
-
+import { useState , useEffect, useContext} from "react";
+import CartContext from "../../context/cart/CartContext";
+import CartPreview from "./CartPreview";
+import { useNavigate } from "react-router-dom"
 
 
 function Header() {
-  return (
-    <nav className="container">
-      <div className="container-wrapper">
+ const navigate= useNavigate()
+ const [color,setColor] = useState({background:'#F5F5F5'})
+ const {total}= useContext(CartContext)
+ const [showCart, setShowCart] = useState(false)
 
+  useEffect(()=>{
+    window.addEventListener('scroll',()=>{
+      if (window.scrollY > 200) {
+        setColor({background: '#fdfafa'})
+      } else {
+        setColor({background: '#F5F5F5'})
+      }
+    })
+  })
+
+  const handleCart = () => {
+    setShowCart(!showCart)
+  }
+
+  const goToCart = () => {
+    setShowCart(false)
+    navigate('/cart')
+  }
+
+  return (
+    <nav className="nav" style={color}>
         <div className="nav-inner">
             <div className="logo-wrapper">
                 <div className="logo">Game Store</div>
@@ -19,16 +43,30 @@ function Header() {
                   <NavLink className="nav-link" to='/games'>Games</NavLink>
                   <NavLink className="nav-link" to='/favorites'>Favorites</NavLink>
                   <NavLink className="nav-link" to='/about'>About</NavLink>
-                  <NavLink className=" nav-link-cart" to='/cart' ><BsFillCartFill size="25px"/> </NavLink>
+                  <div className="cart-link-wrapper">
+                    {/* <NavLink className=" nav-link-cart" to='/cart' ><BsFillCartFill size="25px"/> </NavLink> */}
+                    <span className="nav-link-cart"> <BsFillCartFill size="25px" onClick={handleCart}/></span>
+                    {total>0 ?
+                      <>
+                        {total>9? 
+                          <div className="cart-count">9+</div>
+                          : <div className="cart-count-single"> {total}</div>
+                        }
+                      </>
+                      :null
+                    }
+                  </div>
               </div>
               <div className="ham-menu">
                 <BsList size="35px"/>
               </div>
 
+              {showCart && <CartPreview handleClick={goToCart}/> }
+
             </div>
             
         </div>
-      </div>
+      
     </nav>
   )
 }

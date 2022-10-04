@@ -1,9 +1,10 @@
 import background from "../../assets/img/layout/Footer.svg"
 import { BsLinkedin, BsFacebook, BsTwitter } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className='container' style={{ backgroundImage: `url(${background})` }}>
+    <footer className='' style={{ backgroundImage: `url(${background})` }}>
         <div className="footer-inner">
             <div className="col">
                 <div className="brand">Game Store</div>
@@ -13,7 +14,9 @@ function Footer() {
                     <BsTwitter size="18px"/>
                 </div>
                 <div className="footer-cta">
-                    <button className="btn">Shop Now</button>
+                    <button className="btn">
+                        <Link to='/games'>Shop Now</Link>    
+                    </button>
                 </div>
             </div>
             <div className="col">
