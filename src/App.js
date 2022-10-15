@@ -1,4 +1,6 @@
 import './assets/css/style.css'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 import { BrowserRouter as Router, Route , Routes} from "react-router-dom"
 import Home from './pages/Home';
 import Games from './pages/Games';
@@ -19,12 +21,13 @@ function App() {
 
   return (
     <GamesProvider>
+      <ToastContainer />
       <CartProvider>
       <FetchGames/>
       <Router>
       <Header/>
       <Routes>
-        <Route path='/'    element={<Home/>}></Route>
+        <Route path='/'  exact={true}  element={<Home/>}></Route>
         <Route path='/about' element={<About/>}></Route>
         <Route path='/games'   element={<Games/>}></Route>
         <Route path='/favorites'   element={<Favorites/>}></Route>

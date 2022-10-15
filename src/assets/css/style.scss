@@ -341,14 +341,16 @@
             }
         }
         .btns{
-            text-align: center;
-            margin: 20px 0;
+            @include flex(center,center);
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 30px 0;
             .btn:first-child{
                 background-color: $primary-color;
                 color: #fff;
             }
             .btn + .btn{
-                margin-left: 10px;
+                 
                 background: $main-green;
                 color: #fff;
             }
@@ -457,6 +459,18 @@
         }
     }
 }
+@media screen and (max-width: 700px) {
+    .cart-area{
+        .cart-area-inner{
+            .cart-card{
+                flex-direction: column;
+                img{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 600px) {
 
     .live-search{
@@ -480,5 +494,8 @@
             }
         }
     
+    }
+    .contact img{
+        width: 35px;
     }
 }

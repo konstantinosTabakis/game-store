@@ -54,7 +54,7 @@ function Cart() {
             ))}
             <div className="centered total">Total: <span className="total-price">{total_cost.toFixed(2)}</span> </div>
             <div className="btns">
-              <Link className="btn" to="/games">Continue Shopping</Link>
+              <Link className="btn" to="/games">All Games</Link>
               <button className="btn" onClick={()=> setShowForm(true)}>Checkout</button>
             </div>
 

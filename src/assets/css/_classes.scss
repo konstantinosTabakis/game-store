@@ -28,6 +28,7 @@
 }
 .nav-link.active{
     color: $active-link-color;
+    font-weight: 700;
 }
 .nav-link-cart svg{
     color: $primary-color;
@@ -36,6 +37,7 @@
     box-shadow: $shadow;
     padding: 15px;
     max-width: 300px;
+    
     border-radius: 12px;
     background-color: #fff;
 
@@ -69,7 +71,8 @@
     }
     .card{
         justify-self: center;
-        width: 300px;
+        max-width: 300px;
+        width: 100%;
     }
 }
 .circle{
@@ -83,4 +86,15 @@
 }
 .circle-bg{
     width: 200px;
+}
+
+@media screen and (max-width: 400px) {
+   .card-grid{
+    display: grid;
+    grid-template-columns:none;
+    gap: 20px;
+    img{
+        width: 90%;
+    }
+}
 }

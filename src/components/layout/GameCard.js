@@ -27,7 +27,7 @@ function GameCard({el}) {
               </div>
               <div className="centered">
                 <Link to={`/games/${el.id}`} >         
-                    <img src={require(`../../assets/img/products/${el.img_url}`)} />
+                    <img className="main-img" src={require(`../../assets/img/products/${el.img_url}`)} />
                 </Link>
               </div>
               <div className="card-title"> 

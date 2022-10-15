@@ -70,6 +70,7 @@ a {
 
 .nav-link.active {
   color: #A75EB4;
+  font-weight: 700;
 }
 
 .nav-link-cart svg {
@@ -126,7 +127,8 @@ a {
 .card-grid .card {
   -ms-grid-column-align: center;
       justify-self: center;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
 }
 
 .circle {
@@ -143,6 +145,19 @@ a {
 
 .circle-bg {
   width: 200px;
+}
+
+@media screen and (max-width: 400px) {
+  .card-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: none;
+        grid-template-columns: none;
+    gap: 20px;
+  }
+  .card-grid img {
+    width: 90%;
+  }
 }
 
 nav {
@@ -173,10 +188,21 @@ nav .nav-inner {
 nav .nav-inner .logo {
   font-size: 28px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 nav .nav-inner .right-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
+  gap: 20px;
 }
 
 nav .nav-inner .nav-links {
@@ -192,11 +218,11 @@ nav .nav-inner .nav-links {
   gap: 70px;
 }
 
-nav .nav-inner .nav-links .cart-link-wrapper {
+nav .nav-inner .cart-link-wrapper {
   position: relative;
 }
 
-nav .nav-inner .nav-links .cart-link-wrapper div {
+nav .nav-inner .cart-link-wrapper div {
   position: absolute;
   background-color: #76c868;
   border-radius: 50%;
@@ -218,7 +244,7 @@ nav .nav-inner .nav-links .cart-link-wrapper div {
   font-weight: 700;
 }
 
-nav .nav-inner .nav-links .cart-link-wrapper .cart-count {
+nav .nav-inner .cart-link-wrapper .cart-count {
   padding: 4px 3px;
 }
 
@@ -229,6 +255,7 @@ nav .nav-inner .ham-menu {
 .cart-dropdown {
   position: absolute;
   right: 0;
+  top: 35px;
   background-color: #fff;
   color: #455A64;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -293,11 +320,40 @@ nav .nav-inner .ham-menu {
 }
 
 @media screen and (max-width: 750px) {
-  .nav-inner .ham-menu {
+  nav .nav-inner .ham-menu {
     display: block;
   }
-  .nav-inner .nav-links {
+  nav .nav-inner .nav-links {
     display: none;
+    position: absolute;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 35px;
+    left: 0;
+    background-color: #fff;
+    gap: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+  }
+  nav .nav-inner .nav-links.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cart-dropdown {
+    top: 45px;
+    min-width: auto;
+    width: 80vw;
+  }
+  .cart-dropdown .cart-dropdown-inner {
+    padding: 20px 10px;
   }
 }
 
@@ -825,8 +881,19 @@ footer .footer-inner .col .itm {
 }
 
 .cart-area .cart-area-inner .btns {
-  text-align: center;
-  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 30px 0;
 }
 
 .cart-area .cart-area-inner .btns .btn:first-child {
@@ -835,7 +902,6 @@ footer .footer-inner .col .itm {
 }
 
 .cart-area .cart-area-inner .btns .btn + .btn {
-  margin-left: 10px;
   background: #76c868;
   color: #fff;
 }
@@ -969,6 +1035,18 @@ footer .footer-inner .col .itm {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .cart-area .cart-area-inner .cart-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cart-area .cart-area-inner .cart-card img {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .live-search .live-search-inner h2 {
     font-size: 22px;
@@ -978,6 +1056,9 @@ footer .footer-inner .col .itm {
   }
   .live-search .live-search-inner .input-area button {
     width: 30%;
+  }
+  .contact img {
+    width: 35px;
   }
 }
 /*# sourceMappingURL=style.css.map */
