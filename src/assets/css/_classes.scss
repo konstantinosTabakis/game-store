@@ -3,7 +3,7 @@
     padding: 10px 25px;
     border-radius: 5px;
     cursor: pointer;
-    
+    display: inline-block;
 }
 .btn:hover{
     transform: scale(.9);
@@ -22,6 +22,9 @@
         padding-left: 10%;
         padding-right: 10%;
     }
+}
+.content{
+    min-height: calc( 100vh - 550px);
 }
 .nav-link.active{
     color: $active-link-color;

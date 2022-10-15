@@ -25,6 +25,17 @@ function Header() {
   const handleCart = () => {
     setShowCart(!showCart)
   }
+  const handleBlur = (e) =>{
+    try{
+      if(e.relatedTarget.className.includes('clickable')){
+        return 
+      }else{
+        setShowCart(false)
+      }
+    }catch(e){
+      setShowCart(false)
+    }
+  }
 
   const goToCart = () => {
     setShowCart(false)
@@ -45,7 +56,7 @@ function Header() {
                   <NavLink className="nav-link" to='/about'>About</NavLink>
                   <div className="cart-link-wrapper">
                     {/* <NavLink className=" nav-link-cart" to='/cart' ><BsFillCartFill size="25px"/> </NavLink> */}
-                    <span className="nav-link-cart"> <BsFillCartFill size="25px" onClick={handleCart}/></span>
+                    <span className="nav-link-cart"> <BsFillCartFill tabIndex='0' size="25px" onClick={handleCart} onBlur={(e)=> handleBlur(e)}/></span>
                     {total>0 ?
                       <>
                         {total>9? 
@@ -61,7 +72,7 @@ function Header() {
                 <BsList size="35px"/>
               </div>
 
-              {showCart && <CartPreview handleClick={goToCart}/> }
+              {showCart && <CartPreview handleClick={goToCart} handleBlur={handleBlur}/> }
 
             </div>
             

@@ -71,7 +71,7 @@ function GamesList({games}) {
 
       ):(
         <>
-          <div className="notItems">No items Found</div>
+          <div className="centered">No items Found</div>
         </>
       )
       

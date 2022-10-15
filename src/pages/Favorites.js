@@ -4,29 +4,27 @@ import GamesContext from "../context/games/GamesContext"
 import { Link } from "react-router-dom"
 
 function Favorites() {
-  const {games}= useContext(GamesContext)
+  const { games } = useContext(GamesContext)
   const [favGames, setFavGames] = useState([])
 
-  useEffect(()=>{
-    setFavGames(games.filter((game)=> game.favorite ))
-  },[games])
+  useEffect(() => {
+    setFavGames(games.filter((game) => game.favorite))
+  }, [games])
   return (
     <div className="container">
       <div className="container-wrapper">
-          <div className="favorites">
-            <div className="title">
-                Favorite Games
-            </div>
-            <GamesList games={favGames}/>
-
-            <div className="btns ">
-                <button className="btn">
-                    <Link to="/games">All Games</Link>  
-                </button>
-                <button className="btn">Open Cart</button>
-            </div>
-
+        <div className="favorites content">
+          <div className="title">
+            Favorite Games
           </div>
+          <GamesList games={favGames} />
+
+          <div className="btns ">
+            <Link className="btn" to="/games">All Games</Link>
+            <Link className="btn" to="/cart">Open Cart</Link>
+          </div>
+
+        </div>
       </div>
     </div>
   )

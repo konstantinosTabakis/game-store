@@ -6,7 +6,8 @@ const CartContext = createContext()
 export const CartProvider = ({children}) => {
     const initialState = {
         items: [],
-        total: 0
+        total: 0,
+        total_cost: 0
     }
 
     const [state, dispatch] = useReducer (CartReducer, initialState)

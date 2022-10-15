@@ -1,21 +1,28 @@
-import { useParams, Link} from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 import { useEffect, useState, useContext } from "react"
 import GamesContext from "../context/games/GamesContext"
+import CartContext from "../context/cart/CartContext"
 import findImage from "../utilities/FindImage"
+
 function GameDetails() {
-  const params= useParams()
-  const {games, dispatch} = useContext(GamesContext)
-  const [game, setGame]= useState('')
+  const params = useParams()
+  const { games, dispatch } = useContext(GamesContext)
+  const {dispatcher} = useContext(CartContext)
+  const [game, setGame] = useState('')
 
 
-  useEffect(()=>{
-    if(games.length> 0){
-      setGame( findImage(games.filter((el)=> el.id === params.id))[0] )
+  useEffect(() => {
+    if (games.length > 0) {
+      setGame(findImage(games.filter((el) => el.id === params.id))[0])
     }
-  },[games])
-  
-  if(game===''){
-    return(
+  }, [games])
+
+  const addToCart = () => {
+    dispatcher({ type: 'ADD_ITEM', payload: game })
+  }
+
+  if (game === '') {
+    return (
       <div className="container">
         <div className="container-wrapper">
           <div className="centered">No item Found</div>
@@ -40,10 +47,8 @@ function GameDetails() {
             </div>
           </div>
           <div className="btns ">
-            <button className="btn">
-             <Link to="/games">All Games</Link>  
-            </button>
-            <button className="btn">Add to Cart</button>
+            <Link className="btn" to="/games">All Games</Link>
+            <button className="btn" onClick={addToCart}>Add to Cart</button>
           </div>
         </div>
       </div>
