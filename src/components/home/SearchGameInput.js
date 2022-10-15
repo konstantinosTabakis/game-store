@@ -44,6 +44,7 @@ function SearchGameInput() {
             Are you looking for a spesific game?
             </h2>
             <div className="input-area">
+            
                 <input type="text" placeholder='Search for a game' value={selected} onChange={handleInput} onBlur={(e)=> handleBlur(e)}  />
                 <button className="btn-search">Search</button>
                 {dropdownItems.length>0 && 
