@@ -1,7 +1,7 @@
 
 import { useEffect, useContext } from 'react';
 import GamesContext from '../context/games/GamesContext';
-import { getGames } from '../context/games/GamesActions';
+import { getGames, getGamesLocal } from '../context/games/GamesActions';
 import getRandomItems from './GetRandomItems';
 import getGenres from './GetGenres';
 function FetchGames() {
@@ -12,7 +12,7 @@ function FetchGames() {
   }, [])
 
   const getItems = (async () => {
-    let data = await getGames()
+    let data = await getGamesLocal()
     //****** * localStorage *******
     const array =  localStorage.getItem('favorites');
     const parsedArray = array ? JSON.parse(array) : [];

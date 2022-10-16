@@ -1,0 +1,1144 @@
+{
+  "games": [
+    {
+      "img_url": "20416758_NBA2K23ChampionshipEditionPS4_thumb_0.png",
+      "title": "NBA 2K23 Championship Edition - PS4",
+      "price": "149,9€",
+      "genre": "Sports",
+      "company": "2KGames",
+      "platform": "PS4",
+      "id": "79eb3beb-4d9b-4559-9102-79ef4f680473",
+      "favorite": false
+    },
+    {
+      "img_url": "20414304_F122PS4_thumb_0.png",
+      "title": "F1 22 - PS4",
+      "price": "44,9€",
+      "genre": "Racing",
+      "company": "Codemasters",
+      "platform": "PS4",
+      "id": "f5130009-c5f5-4968-a75d-bb3110b6a11c",
+      "favorite": false
+    },
+    {
+      "img_url": "20416738_NBA2K23PS4_thumb_0.png",
+      "title": "NBA 2K23 - PS4",
+      "price": "69,9€",
+      "genre": "Sports",
+      "company": "2KGames",
+      "platform": "PS4",
+      "id": "e02cf383-0859-4dbd-9c9d-575c9f99696e",
+      "favorite": false
+    },
+    {
+      "img_url": "20413546_VampireTheMasqueradeSwansongPS4_thumb_0.png",
+      "title": "Vampire The Masquerade: Swansong - PS4",
+      "price": "59,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "Nacon",
+      "platform": "PS4",
+      "id": "e372740d-b42c-40aa-bd48-76c50ad3cb94",
+      "favorite": false
+    },
+    {
+      "img_url": "20411879_Assassin039sCreedValhallaRagnarokEditionPS4_thumb_0.png",
+      "title": "Assassin's Creed Valhalla Ragnarok Edition - PS4",
+      "price": "39,9€",
+      "genre": "Action/Adventure",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "58685fcb-fbf0-4b5a-b539-7926580f11d0",
+      "favorite": false
+    },
+    {
+      "img_url": "20415220_TheQuarryPS4_thumb_0.png",
+      "title": "The Quarry - PS4",
+      "price": "49,9€",
+      "genre": "Horror",
+      "company": "2KGames",
+      "platform": "PS4",
+      "id": "31eb8306-e37e-4a34-8720-a042db69ad7f",
+      "favorite": false
+    },
+    {
+      "img_url": "20416753_NBA2K23MichaelJordanEditionPS4_thumb_0.png",
+      "title": "NBA 2K23 Michael Jordan Edition - PS4",
+      "price": "99,89€",
+      "genre": "Sports",
+      "company": "2KGames",
+      "platform": "PS4",
+      "id": "cce3898c-8890-401f-8a8e-7fbb7b1394f7",
+      "favorite": false
+    },
+    {
+      "img_url": "20413550_MotoGP22DayOneEditionPS4_thumb_0.png",
+      "title": "MotoGP 22 Day One Edition - PS4",
+      "price": "69,9€",
+      "genre": "Racing",
+      "company": "Milestone",
+      "platform": "PS4",
+      "id": "c0609370-cd08-4fa2-9c8a-42f01ef94128",
+      "favorite": false
+    },
+    {
+      "img_url": "20411385_GRIDLegendsPS4_thumb_0.png",
+      "title": "GRID Legends - PS4",
+      "price": "39,9€",
+      "genre": "Racing",
+      "company": "Codemasters",
+      "platform": "PS4",
+      "id": "3afe1922-6f2d-405a-9ba1-38d9a12b13ed",
+      "favorite": false
+    },
+    {
+      "img_url": "20411749_WWE2K22PS4_thumb_0.png",
+      "title": "WWE 2K22 - PS4",
+      "price": "39,9€",
+      "genre": "Fighting",
+      "company": "2KGames",
+      "platform": "PS4",
+      "id": "e41a0ded-a739-4194-9dab-312952265a0b",
+      "favorite": false
+    },
+    {
+      "img_url": "20412249_SniperElite5PS4_thumb_0.png",
+      "title": "Sniper Elite 5 - PS4",
+      "price": "59,9€",
+      "genre": "Shooter",
+      "company": "SOL",
+      "platform": "PS4",
+      "id": "2304a8b8-f9b6-4ea4-9111-644eb13d82af",
+      "favorite": false
+    },
+    {
+      "img_url": "20410904_Assassin039sCreedValhallaDawnofRagnarokExpansionPS4_thumb_0.png",
+      "title": "Assassin's Creed Valhalla Dawn of Ragnarok Expansion - PS4",
+      "price": "24,9€",
+      "genre": "Action/Adventure",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "f57026e9-cd49-479e-bf44-b163f3ff4612",
+      "favorite": false
+    },
+    {
+      "img_url": "20408940_GranTurismo7PS4_thumb_0.png",
+      "title": "Gran Turismo 7 - PS4",
+      "price": "69,9€",
+      "genre": "Racing",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "97dc0041-68a2-4aa7-9c61-abb619a5a325",
+      "favorite": false
+    },
+    {
+      "img_url": "20410041_LittleNightmaresIampIIPS4_thumb_0.png",
+      "title": "Little Nightmares I & II - PS4",
+      "price": "39,9€",
+      "genre": "Horror",
+      "company": "BandaiNamco",
+      "platform": "PS4",
+      "id": "c7e9ef30-ca10-4b20-9a22-8e893d1a2d8d",
+      "favorite": false
+    },
+    {
+      "img_url": "20374249_Cyberpunk2077PS4_thumb_0.png",
+      "title": "Cyberpunk 2077 - PS4",
+      "price": "9,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "CDPROJEKTRED",
+      "platform": "18",
+      "id": "f956a761-ce77-4dab-b4f4-dda32c075dcd",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20404260/20404260_MotoGP21PS4_thumb_0.png",
+      "title": "MotoGP 21 - PS4",
+      "price": "69,9€",
+      "genre": "Sports",
+      "company": "Milestone",
+      "platform": "PS4",
+      "id": "dee005ca-0873-4c3d-a372-a4611a84889d",
+      "favorite": false
+    },
+    {
+      "img_url": "20395910_FIFA21PS4_thumb_0.png",
+      "title": "FIFA 21 - PS4",
+      "price": "9,9€",
+      "genre": "Sports",
+      "company": "ElectronicArts",
+      "platform": "PS4",
+      "id": "12d9ca62-a0df-4776-95cc-f2164715f455",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20410034/20410034_GrandTheftAutoTheTrilogyTheDefinitiveEditionPS4_thumb_0.png",
+      "title": "Grand Theft Auto: The Trilogy - The Definitive Edition - PS4",
+      "price": "24,9€",
+      "genre": "Action/Adventure",
+      "company": "RockstarGames",
+      "platform": "PS4",
+      "id": "7366eb32-b7f4-44f0-bb83-4d1b8bb53f68",
+      "favorite": false
+    },
+    {
+      "img_url": "20408938_GranTurismo725thAnniversaryEditionPS5PS4_thumb_0.png",
+      "title": "Gran Turismo 7 25th Anniversary Edition - PS5/ PS4",
+      "price": "99,89€",
+      "genre": "Racing",
+      "company": "Sony",
+      "platform": "PS5",
+      "id": "b126d343-8a2a-4344-8c4c-1a15990cf4e3",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20374148/20374148_BeyondGoodampEvil2PS4_thumb_0.png",
+      "title": "Beyond Good & Evil 2 - PS4",
+      "price": "69,9€",
+      "genre": "Action/Adventure",
+      "company": "Ubisoft",
+      "platform": "18",
+      "id": "d0617e28-aebd-40ff-a4cc-d5999a990b22",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20374152/20374152_SkullampBonesPS4_thumb_0.png",
+      "title": "Skull & Bones - PS4",
+      "price": "69,9€",
+      "genre": "Action/Adventure",
+      "company": "Ubisoft",
+      "platform": "18",
+      "id": "1f5ce245-110f-42e0-b2e9-e8fb349c504a",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20413437/20413437_MonsterEnergySupercross5PS4_thumb_0.png",
+      "title": "Monster Energy Supercross 5 - PS4",
+      "price": "69,9€",
+      "genre": "Racing",
+      "company": "Milestone",
+      "platform": "PS4",
+      "id": "ecb85a04-c9f8-4a9f-8953-e98097568729",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20415421/20415421_TheCallistoProtocolDayOneEditionPS4_thumb_0.png",
+      "title": "The Callisto Protocol Day One Edition - PS4",
+      "price": "59,9€",
+      "genre": "Horror",
+      "company": "Skybound",
+      "platform": "PS4",
+      "id": "64adaad5-2c74-4e6a-98ce-28a3f313cbae",
+      "favorite": false
+    },
+    {
+      "img_url": "20384181_TheElderScrollsVIPS4_thumb_0.png",
+      "title": "The Elder Scrolls VI - PS4",
+      "price": "69,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "Bethesda",
+      "platform": "18",
+      "id": "0ef049c7-b2d7-4f05-8416-5b36492039fd",
+      "favorite": false
+    },
+    {
+      "img_url": "20415224_RabbidsPartyofLegendsPS4_thumb_0.png",
+      "title": "Rabbids: Party of Legends - PS4",
+      "price": "29,9€",
+      "genre": "Casual-Family",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "08e32ffe-5aab-4419-bbec-d5162484f722",
+      "favorite": false
+    },
+    {
+      "img_url": "20416728_GodofWarRagnarokJotnarEditionPS5PS4_thumb_0.png",
+      "title": "God of War Ragnarok Jotnar Edition - PS5/ PS4",
+      "price": "269,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS5",
+      "id": "c1a2195c-12bc-40c1-a610-50190e7d4a32",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20396566/20396566_FarCry6StandardEditionPS4_thumb_0.png",
+      "title": "Far Cry 6 Standard Edition - PS4",
+      "price": "69,9€",
+      "genre": "Shooter",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "0ae44d23-df14-400a-ab00-d3e1bc4ef985",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20416734/20416734_FIFA23PS4_thumb_0.png",
+      "title": "FIFA 23 - PS4",
+      "price": "69,9€",
+      "genre": "Sports",
+      "company": "ElectronicArts",
+      "platform": "PS4",
+      "id": "431dd10d-30de-4477-8260-9500d67721d2",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20415621/20415621_Marvel039sMidnightSunsPS4_thumb_0.png",
+      "title": "Marvel's Midnight Suns - PS4",
+      "price": "69,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "2KGames",
+      "platform": "PS4",
+      "id": "c44d1eaf-4500-4a4a-b7f8-7629c01d2d1d",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20415714/20415714_CallofDutyModernWarfareIIPS4_thumb_0.png",
+      "title": "Call of Duty Modern Warfare II - PS4",
+      "price": "79,91€",
+      "genre": "Shooter",
+      "company": "Activision",
+      "platform": "PS4",
+      "id": "f2519cc9-4847-4be9-b509-cb606a243dab",
+      "favorite": false
+    },
+    {
+      "img_url": "20374251_TwinMirrorPS4_thumb_0.png",
+      "title": "Twin Mirror - PS4",
+      "price": "69,9€",
+      "genre": "Action/Adventure",
+      "company": "BandaiNamco",
+      "platform": "16",
+      "id": "51263512-3927-46c3-a75d-08bdef49f445",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20415625/20415625_Marvel039sMidnightSunsLegendaryEditionPS4_thumb_0.png",
+      "title": "Marvel's Midnight Suns Legendary Edition - PS4",
+      "price": "99,89€",
+      "genre": "RolePlaying(RPG)",
+      "company": "2KGames",
+      "platform": "PS4",
+      "id": "6e1098ea-201a-4676-a4a0-5e57a4dd7ff0",
+      "favorite": false
+    },
+    {
+      "img_url": "20416727_GodofWarRagnarokCollector039sEditionPS5PS4_thumb_0.png",
+      "title": "God of War Ragnarok Collector's Edition - PS5/ PS4",
+      "price": "209,89€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS5",
+      "id": "9f7dd257-ecee-4fed-b64f-055927cb5959",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20416726/20416726_GodofWarRagnarokStandardEditionPS4_thumb_0.png",
+      "title": "God of War Ragnarok Standard Edition - PS4",
+      "price": "69,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "a95f5d7a-c5a2-47ad-9193-328908ee0a01",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20416790/20416790_GodofWarRagnarokLaunchEditionPS4_thumb_0.png",
+      "title": "God of War Ragnarok Launch Edition - PS4",
+      "price": "69,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "8e7925f4-87b6-46cc-8736-efd6dc885009",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20384707/20384707_TomClancy039sRainbowSixExtractionPS4_thumb_0.png",
+      "title": "Tom Clancy's Rainbow Six: Extraction - PS4",
+      "price": "69,9€",
+      "genre": "Shooter",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "84ddaede-0ee2-4eb0-a4d1-957e4d1a1180",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20418807/20418807_HogwartsLegacyPS4_thumb_0.png",
+      "title": "Hogwarts Legacy - PS4",
+      "price": "69,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "WarnerBros.Interactive",
+      "platform": "PS4",
+      "id": "12506acf-acc6-45d0-a2cc-2e8159ac115c",
+      "favorite": false
+    },
+    {
+      "img_url": "20418801_Assassin039sCreedMirageDeluxeEditionPS4_thumb_0.png",
+      "title": "Assassin's Creed Mirage Deluxe Edition - PS4",
+      "price": "59,9€",
+      "genre": "Action/Adventure",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "a6376a33-ca6e-445e-8a7a-4410c96422d2",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20418788/20418788_Assassin039sCreedMiragePS4_thumb_0.png",
+      "title": "Assassin's Creed Mirage - PS4",
+      "price": "49,9€",
+      "genre": "Action/Adventure",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "34d1bdc9-1b48-4c27-bcb3-7b400338a8c6",
+      "favorite": false
+    },
+    {
+      "img_url": "20399631_ImmortalsFenyxRisingShadowmasterEditionPS4_thumb_0.png",
+      "title": "Immortals Fenyx Rising Shadowmaster Edition - PS4",
+      "price": "9,9€",
+      "genre": "Action/Adventure",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "6179531f-9423-4725-9b50-115f5c95e203",
+      "favorite": false
+    },
+    {
+      "img_url": "20380243_KnowledgeisPowerDecadesPS4_thumb_0.png",
+      "title": "Knowledge is Power Decades - PS4",
+      "price": "19,9€",
+      "genre": "Casual-Family",
+      "company": "Sony",
+      "platform": "3",
+      "id": "a0d39ad5-d890-4761-9591-e1d4e6d7263c",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20379412/20379412_PlayerUnknown039sBattlegroundsPS4_thumb_0.png",
+      "title": "PlayerUnknown's Battlegrounds - PS4",
+      "price": "29,9€",
+      "genre": "Shooter",
+      "company": "Sony",
+      "platform": "16",
+      "id": "86b3e521-af99-40be-b83b-9f324c2da46d",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20378611/20378611_JustCause4StandardEditionPS4_thumb_0.png",
+      "title": "Just Cause 4 Standard Edition - PS4",
+      "price": "27,9€",
+      "genre": "Action/Adventure",
+      "company": "SquareEnix",
+      "platform": "18",
+      "id": "6e3f2b04-e22f-4abe-b0be-794f47081438",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20380443/20380443_CrashTeamRacingNitroFueledPS4_thumb_0.png",
+      "title": "Crash Team Racing Nitro-Fueled - PS4",
+      "price": "39,9€",
+      "genre": "Racing",
+      "company": "Activision",
+      "platform": "7",
+      "id": "502fe6f9-4007-4135-9e11-5f3e278511e2",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20394639/20394639_FastampFuriousCrossroadsPS4_thumb_0.png",
+      "title": "Fast & Furious Crossroads - PS4",
+      "price": "49,9€",
+      "genre": "Action/Adventure",
+      "company": "BandaiNamco",
+      "platform": "PS4",
+      "id": "caaed49b-bfeb-4334-be37-2c03a723b879",
+      "favorite": false
+    },
+    {
+      "img_url": "20401844_BalanWonderworldPS4_thumb_0.png",
+      "title": "Balan Wonderworld - PS4",
+      "price": "19,9€",
+      "genre": "Platform",
+      "company": "SquareEnix",
+      "platform": "PS4",
+      "id": "27ccfad9-8420-45f9-ba5b-731580abde44",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20397566/20397566_StreetPowerFootballPS4_thumb_0.png",
+      "title": "Street Power Football - PS4",
+      "price": "49,9€",
+      "genre": "Sports",
+      "company": "MAX",
+      "platform": "PS4",
+      "id": "26172ae3-6ff9-4856-aa8f-d4d1282ab839",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20404269/20404269_ScarletNexusPS4_thumb_0.png",
+      "title": "Scarlet Nexus - PS4",
+      "price": "29,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "BandaiNamco",
+      "platform": "PS4",
+      "id": "ecddd078-0a7b-4a19-ba75-0a5b66a03a5a",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20405558/20405558_DyingLight2StayHumanPS4_thumb_0.png",
+      "title": "Dying Light 2: Stay Human - PS4",
+      "price": "69,9€",
+      "genre": "Horror",
+      "company": "Techland",
+      "platform": "PS4",
+      "id": "c551a51c-1aab-4632-af16-d0a73e972b29",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20408247/20408247_Back4BloodSpecialEditionPS4_thumb_0.png",
+      "title": "Back 4 Blood Special Edition - PS4",
+      "price": "59,9€",
+      "genre": "Shooter",
+      "company": "WarnerBros.Interactive",
+      "platform": "PS4",
+      "id": "daef1995-ede2-448a-98e6-3f0f7ad96721",
+      "favorite": false
+    },
+    {
+      "img_url": "20326460_battlebornps4a_thumb.png",
+      "title": "Battleborn-PS4",
+      "price": "9,9€",
+      "genre": "03/05/2016",
+      "company": "Shooter",
+      "platform": "",
+      "id": "5a6ec22b-b6d1-4ddf-af7d-e4a8c1f27a61",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20409482/20409482_MinecraftDungeonsUltimateEditionPS4_thumb_0.png",
+      "title": "Minecraft Dungeons Ultimate Edition - PS4",
+      "price": "44,9€",
+      "genre": "Action/Adventure",
+      "company": "MojangStudios",
+      "platform": "PS4",
+      "id": "fe58ed37-13eb-4eec-8592-3d394a7a29dc",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20371555/20371555_RedDeadRedemption2PS4_thumb_0.png",
+      "title": "Red Dead Redemption 2 - PS4",
+      "price": "24,9€",
+      "genre": "Action/Adventure",
+      "company": "RockstarGames",
+      "platform": "18",
+      "id": "19223013-4bee-427e-8e42-b4d5a7ea7945",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20408648/20408648_FortniteTheMintyLegendsPackPS4_thumb_0.png",
+      "title": "Fortnite: The Minty Legends Pack - PS4",
+      "price": "19,9€",
+      "genre": "Shooter",
+      "company": "WarnerBros.Interactive",
+      "platform": "PS4",
+      "id": "2ac9a82a-fc65-4c88-b71f-b02c7221bf6d",
+      "favorite": false
+    },
+    {
+      "img_url": "20371698_HiddenAgendaPS4_thumb_0.png",
+      "title": "Hidden Agenda - PS4",
+      "price": "19,9€",
+      "genre": "Casual-Family",
+      "company": "Sony",
+      "platform": "16",
+      "id": "fc383a44-d214-4c04-a533-bf7e08172e97",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20371699/20371699_HPS4_thumb_0.png",
+      "title": "H Γνώση Είναι Δύναμη - PS4",
+      "price": "19,9€",
+      "genre": "Casual-Family",
+      "company": "Sony",
+      "platform": "3",
+      "id": "871482cd-4df8-47d9-b861-e97023b5c749",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20371931/20371931_DetroitBecomeHumanPS4_thumb_0.png",
+      "title": "Detroit: Become Human - PS4",
+      "price": "39,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "18",
+      "id": "1a26bba3-a8be-43d2-a130-17d4f6909208",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20373594/20373594_PES2019PS4_thumb_0.png",
+      "title": "PES 2019 - PS4",
+      "price": "29,9€",
+      "genre": "Sports",
+      "company": "Konami",
+      "platform": "3",
+      "id": "8b1f2189-0b68-425d-b9e1-f7d72a3c2201",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20374141/20374141_DeathStrandingPS4_thumb_0.png",
+      "title": "Death Stranding - PS4",
+      "price": "39,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "18",
+      "id": "a668722b-221d-41d0-ac87-90efe1fe1524",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20374163/20374163_FIFA19PS4_thumb_0.png",
+      "title": "FIFA 19 - PS4",
+      "price": "19,9€",
+      "genre": "Sports",
+      "company": "ElectronicArts",
+      "platform": "3",
+      "id": "219ff042-dbb1-459a-b428-988799025c29",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20374142/20374142_DaysGonePS4_thumb_0.png",
+      "title": "Days Gone - PS4",
+      "price": "39,9€",
+      "genre": "Horror",
+      "company": "SonyComputerEntertainment",
+      "platform": "18",
+      "id": "4b928513-f093-4533-9971-f72e6523ab0a",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20374144/20374144_GhostofTsushimaPS4_thumb_0.png",
+      "title": "Ghost of Tsushima - PS4",
+      "price": "49,9€",
+      "genre": "Action/Adventure",
+      "company": "SonyComputerEntertainment",
+      "platform": "18",
+      "id": "ea24fa89-00a5-44e1-88e6-d312d8923f60",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20374145/20374145_Marvel039sSpiderManPS4_thumb_0.png",
+      "title": "Marvel's Spider-Man - PS4",
+      "price": "39,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "16",
+      "id": "323f7135-01f5-476e-8a1b-e180e9ee6297",
+      "favorite": false
+    },
+    {
+      "img_url": "20374143_TheLastofUsPartIIPS4_thumb_0.png",
+      "title": "The Last of Us Part II - PS4",
+      "price": "39,9€",
+      "genre": "Horror",
+      "company": "SonyComputerEntertainment",
+      "platform": "18",
+      "id": "988ab985-7a5f-45ed-88d4-ccd3cde165d5",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20374146/20374146_Assassin039sCreedOdysseyPS4_thumb_0.png",
+      "title": "Assassin's Creed Odyssey - PS4",
+      "price": "19,9€",
+      "genre": "Action/Adventure",
+      "company": "Ubisoft",
+      "platform": "18",
+      "id": "76e19763-0e07-4bfd-875b-369b7748447f",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20375052/20375052_RatchetampClankPlayStationHitsPS4_thumb_0.png",
+      "title": "Ratchet & Clank PlayStation Hits - PS4",
+      "price": "19,9€",
+      "genre": "Platform",
+      "company": "Sony",
+      "platform": "7",
+      "id": "4a772863-43a2-4df4-9175-971048a90891",
+      "favorite": false
+    },
+    {
+      "img_url": "20374160_AnthemPS4_thumb_0.png",
+      "title": "Anthem - PS4",
+      "price": "4,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "ElectronicArts",
+      "platform": "18",
+      "id": "f539d6a8-9e1c-464e-acc2-73db9c7be6a5",
+      "favorite": false
+    },
+    {
+      "img_url": "20375040_TheLastofUsRemasteredPlayStationHitsPS4_thumb_0.png",
+      "title": "The Last of Us Remastered PlayStation Hits - PS4",
+      "price": "19,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "18",
+      "id": "81fbba55-db50-4931-bb15-3ad32d49157d",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20384704/20384704_EldenRingLaunchEditionPS4_thumb_0.png",
+      "title": "Elden Ring Launch Edition - PS4",
+      "price": "49,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "BandaiNamco",
+      "platform": "PS4",
+      "id": "3b5d45e0-a713-4734-b7de-aa0fa9d99f90",
+      "favorite": false
+    },
+    {
+      "img_url": "20384002_eFootballPES2020PS4_thumb_0.png",
+      "title": "eFootball PES 2020 - PS4",
+      "price": "55,9€",
+      "genre": "Sports",
+      "company": "Konami",
+      "platform": "3",
+      "id": "4715de57-7a2f-48fd-90d2-67260b83fe4d",
+      "favorite": false
+    },
+    {
+      "img_url": "20379732_AstroBotRescueMissionPSVRPS4_thumb_0.png",
+      "title": "Astro Bot Rescue Mission PS VR - PS4",
+      "price": "4,9€",
+      "genre": "VRRequired",
+      "company": "Sony",
+      "platform": "7",
+      "id": "6cdf547f-16be-442d-bda7-b03a06aefc40",
+      "favorite": false
+    },
+    {
+      "img_url": "20383901_NBA2K20PS4_thumb_0.png",
+      "title": "NBA 2K20 - PS4",
+      "price": "10,9€",
+      "genre": "Sports",
+      "company": "2KGames",
+      "platform": "3",
+      "id": "2f5eb532-3fbe-4492-a297-bb947b51aff2",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20383923/20383923_MedievilPS4_thumb_0.png",
+      "title": "Medievil - PS4",
+      "price": "29,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "40c881e2-d848-4eb8-8906-9cfcee6a47b2",
+      "favorite": false
+    },
+    {
+      "img_url": "20384275_Marvel039sAvengersPS4_thumb_0.png",
+      "title": "Marvel's Avengers - PS4",
+      "price": "19,9€",
+      "genre": "Action/Adventure",
+      "company": "SquareEnix",
+      "platform": "PS4",
+      "id": "06f5c049-d012-44f4-a69f-7c8b81f5966b",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20384179/20384179_FinalFantasyVIIRemakePS4_thumb_0.png",
+      "title": "Final Fantasy VII Remake - PS4",
+      "price": "29,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "SquareEnix",
+      "platform": "16",
+      "id": "76089c59-fd9a-4b8d-b156-8ac55a05c4be",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20388305/20388305_GrandTheftAutoVPremiumEditionPS4_thumb_0.png",
+      "title": "Grand Theft Auto V Premium Edition - PS4",
+      "price": "19,9€",
+      "genre": "Action/Adventure",
+      "company": "RockstarGames",
+      "platform": "PS4",
+      "id": "4f88cd9e-e97c-452c-8438-243b141d30c6",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20384712/20384712_WatchDogsLegionResistanceEditionPS4_thumb_0.png",
+      "title": "Watch Dogs Legion Resistance Edition - PS4",
+      "price": "19,9€",
+      "genre": "Action/Adventure",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "ec716929-83e0-4b52-8c33-8c2b301607b8",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20388664/20388664_ConcreteGeniePS4_thumb_0.png",
+      "title": "Concrete Genie - PS4",
+      "price": "29,9€",
+      "genre": "VRCompatible",
+      "company": "Sony",
+      "platform": "PS4/PSVR",
+      "id": "eac655be-3b97-4763-b20c-2b6c62b5f678",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20388715/20388715_UnchartedPlayStationHitsPS4_thumb_0.png",
+      "title": "Uncharted: Αναζητώντας τον Χαμένο Θρύλο PlayStation Hits - PS4",
+      "price": "19,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "d1443f85-a639-4220-a703-9464d706c15c",
+      "favorite": false
+    },
+    {
+      "img_url": "20388714_GodofWarPlayStationHitsPS4_thumb_0.png",
+      "title": "God of War PlayStation Hits - PS4",
+      "price": "19,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "2ee3833a-24a4-47e3-9801-fbf29698b763",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20388713/20388713_GranTurismoSportPlayStationHitsPS4_thumb_0.png",
+      "title": "Gran Turismo Sport PlayStation Hits - PS4",
+      "price": "19,9€",
+      "genre": "Racing",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "14140caf-02c7-4468-ba9f-04d156d391b0",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20390449/20390449_HorizonZeroDawnCompleteEditionPlayStationHitsPS4_thumb_0.png",
+      "title": "Horizon Zero Dawn Complete Edition PlayStation Hits - PS4",
+      "price": "19,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "1079e21b-0dcf-49c6-b37a-c1798275672f",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20392860/20392860_PredatorHuntingGroundsPS4_thumb_0.png",
+      "title": "Predator: Hunting Grounds - PS4",
+      "price": "39,9€",
+      "genre": "Shooter",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "681c0ca5-1472-4005-ba9c-b6254c38f85b",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20394929/20394929_MafiaDefinitiveEditionPS4_thumb_0.png",
+      "title": "Mafia Definitive Edition - PS4",
+      "price": "19,9€",
+      "genre": "Action/Adventure",
+      "company": "Take2",
+      "platform": "PS4",
+      "id": "c15fc7fa-e93d-4cec-a63a-bb94180621e4",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20392886/20392886_GhostofTsushimaStandardEditionPS4_thumb_0.png",
+      "title": "Ghost of Tsushima Standard+ Edition - PS4",
+      "price": "49,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "08b7d1fd-2d37-4149-8eae-1fddb2e13695",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20395982/20395982_CrashBandicoot4It039sAboutTimePS4_thumb_0.png",
+      "title": "Crash Bandicoot 4: It's About Time - PS4",
+      "price": "34,9€",
+      "genre": "Platform",
+      "company": "Activision",
+      "platform": "PS4",
+      "id": "70b6efb5-c763-4511-9055-9df3a84d2049",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20391355/20391355_DreamsPS4_thumb_0.png",
+      "title": "Dreams - PS4",
+      "price": "39,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "338a014d-1686-4ced-b3d0-b64b563f34f9",
+      "favorite": false
+    },
+    {
+      "img_url": "20395918_StarWarsSquadronsPS4_thumb_0.png",
+      "title": "Star Wars: Squadrons - PS4",
+      "price": "7,9€",
+      "genre": "Shooter",
+      "company": "ElectronicArts",
+      "platform": "PS4",
+      "id": "a7add222-9b74-406d-a22f-12c5f9c3c530",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20394386/20394386_Assassin039sCreedValhallaDrakkarEditionPS4_thumb_0.png",
+      "title": "Assassin's Creed Valhalla Drakkar Edition - PS4",
+      "price": "24,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "af10f45e-292a-4108-b0fe-f475e2f497f9",
+      "favorite": false
+    },
+    {
+      "img_url": "20396290_NBA2K21StandardEditionPS4_thumb_0.png",
+      "title": "NBA 2K21 Standard Edition - PS4",
+      "price": "9,9€",
+      "genre": "Sports",
+      "company": "Take2",
+      "platform": "PS4",
+      "id": "2d4d2ef2-0b5f-409a-9853-8c28e08957f8",
+      "favorite": false
+    },
+    {
+      "img_url": "20396612_FarCry6UltimateEditionPS4_thumb_0.png",
+      "title": "Far Cry 6 Ultimate Edition - PS4",
+      "price": "119,9€",
+      "genre": "Shooter",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "cdf322b4-2acf-4867-abe1-2819d6aa59fc",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20397608/20397608_JustDance2021PS4_thumb_0.png",
+      "title": "Just Dance 2021 - PS4",
+      "price": "14,9€",
+      "genre": "Music,Party&Puzzle",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "fbada0cd-3840-4562-b39b-63ee89920671",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20396568/20396568_FarCry6YaraDay1SpecialEditionPS4_thumb_0.png",
+      "title": "Far Cry 6 Yara Day 1 Special Edition - PS4",
+      "price": "24,9€",
+      "genre": "Shooter",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "7f6d55b7-fd96-471d-98a4-e98a8b212556",
+      "favorite": false
+    },
+    {
+      "img_url": "20397818_FortniteTheLastLaughBundlePS4_thumb_0.png",
+      "title": "Fortnite: The Last Laugh Bundle - PS4",
+      "price": "14,9€",
+      "genre": "Shooter",
+      "company": "WarnerBros.Interactive",
+      "platform": "PS4",
+      "id": "9b715617-d3fc-4cdd-957b-0d3c6ce34cba",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20399685/20399685_SackboyABigAdventurePS4_thumb_0.png",
+      "title": "Sackboy: A Big Adventure - PS4",
+      "price": "69,9€",
+      "genre": "Platform",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "3fae45c6-b0c2-4f21-843b-18717b80f33f",
+      "favorite": false
+    },
+    {
+      "img_url": "20399684_Marvel039sSpiderManMilesMoralesPS4_thumb_0.png",
+      "title": "Marvel's Spider-Man: Miles Morales - PS4",
+      "price": "59,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "b79fb163-e67b-4de5-82c6-87c056968cc4",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20406955/20406955_Marvel039sGuardiansoftheGalaxyCosmicDeluxeEditionPS4_thumb_0.png",
+      "title": "Marvel's Guardians of the Galaxy Cosmic Deluxe Edition - PS4",
+      "price": "89,9€",
+      "genre": "Action/Adventure",
+      "company": "SquareEnix",
+      "platform": "PS4",
+      "id": "cd3deeee-f184-4aa0-ac69-8f43a91890d8",
+      "favorite": false
+    },
+    {
+      "img_url": "20401737_RidersRepublicFreerideEditionPS4_thumb_0.png",
+      "title": "Riders Republic Freeride Edition - PS4",
+      "price": "24,9€",
+      "genre": "Sports",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "440cf3d5-1416-49c0-8157-7072320284ef",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20401912/20401912_ResidentEvilVillagePS4_thumb_0.png",
+      "title": "Resident Evil Village - PS4",
+      "price": "29,9€",
+      "genre": "Horror",
+      "company": "Capcom",
+      "platform": "PS4",
+      "id": "da638c83-9eca-460b-bfe0-68852133e676",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20406337/20406337_Battlefield2042PS4_thumb_0.png",
+      "title": "Battlefield 2042 - PS4",
+      "price": "14,9€",
+      "genre": "Shooter",
+      "company": "ElectronicArts",
+      "platform": "PS4",
+      "id": "c12f748d-5fb1-46f8-8617-6b389275632b",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20404272/20404272_MassEffectLegendaryEditionPS4_thumb_0.png",
+      "title": "Mass Effect Legendary Edition - PS4",
+      "price": "49,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "ElectronicArts",
+      "platform": "PS4",
+      "id": "0286c698-8411-4f5c-968e-912426dccc58",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20406502/20406502_Marvel039sGuardiansoftheGalaxyPS4_thumb_0.png",
+      "title": "Marvel's Guardians of the Galaxy - PS4",
+      "price": "29,9€",
+      "genre": "Action/Adventure",
+      "company": "SquareEnix",
+      "platform": "PS4",
+      "id": "4ef7ed0b-adb5-43a6-90dc-b9ff019d14a8",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20406570/20406570_Back4BloodPS4_thumb_0.png",
+      "title": "Back 4 Blood - PS4",
+      "price": "29,9€",
+      "genre": "15/06/2021",
+      "company": "Horror",
+      "platform": "18",
+      "id": "2fba472b-0553-4d4e-a35d-065e9d0c42a5",
+      "favorite": false
+    },
+    {
+      "img_url": "20406597_HadesPS4_thumb_0.png",
+      "title": "Hades - PS4",
+      "price": "19,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "SupergiantGames",
+      "platform": "PS4",
+      "id": "9c7e8456-c88d-4685-a5cf-58f2f825407c",
+      "favorite": false
+    },
+    {
+      "img_url": "20406977_NBA2K22PS4_thumb_0.png",
+      "title": "NBA 2K22 - PS4",
+      "price": "19,9€",
+      "genre": "Sports",
+      "company": "2KGames",
+      "platform": "PS4",
+      "id": "3d783564-e9d4-4ad5-ad18-ea28495b6019",
+      "favorite": false
+    },
+    {
+      "img_url": "20407032_TomClancy039sRainbowSixExtractionGuardianEditionPS4_thumb_0.png",
+      "title": "Tom Clancy's Rainbow Six: Extraction Guardian Edition - PS4",
+      "price": "19,9€",
+      "genre": "Shooter",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "23de66a0-9968-44d8-b8ef-2333efd4d41d",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20407069/20407069_MinecraftStarterCollectionPS4_thumb_0.png",
+      "title": "Minecraft Starter Collection - PS4",
+      "price": "29,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "daba12a2-68eb-4d8f-a50f-d1ac448443dd",
+      "favorite": false
+    },
+    {
+      "img_url": "20407156_FIFA22PS4_thumb_0.png",
+      "title": "FIFA 22 - PS4",
+      "price": "29,9€",
+      "genre": "Sports",
+      "company": "ElectronicArts",
+      "platform": "PS4",
+      "id": "2c4649ee-cb94-4971-9f52-c94d5256414b",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20407850/20407850_JustDance2022PS4_thumb_0.png",
+      "title": "Just Dance 2022 - PS4",
+      "price": "24,9€",
+      "genre": "Music,Party&Puzzle",
+      "company": "Ubisoft",
+      "platform": "PS4",
+      "id": "acc5e77c-a3a9-4943-9841-dde55a494b09",
+      "favorite": false
+    },
+    {
+      "img_url": "https://www.germanos.gr/images/type2/20408044/20408044_CallofDutyVanguardPS4_thumb_0.png",
+      "title": "Call of Duty Vanguard - PS4",
+      "price": "44,9€",
+      "genre": "Shooter",
+      "company": "Activision",
+      "platform": "PS4",
+      "id": "e25f31b5-6c2b-4f4b-9bbf-7a83cba811d8",
+      "favorite": false
+    },
+    {
+      "img_url": "20408060_HorizonForbiddenWestCollector039sEditionPS5PS4_thumb_0.png",
+      "title": "Horizon Forbidden West Collector's Edition - PS5/ PS4",
+      "price": "199,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS5",
+      "id": "bb913e61-e7c8-410c-9a63-d8d7b77ffd4f",
+      "favorite": false
+    },
+    {
+      "img_url": "20408059_HorizonForbiddenWestSpecialEditionPS4_thumb_0.png",
+      "title": "Horizon Forbidden West Special Edition - PS4",
+      "price": "79,91€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "0ef7fc7b-cd1d-440b-be0d-75c6b6b8611c",
+      "favorite": false
+    },
+    {
+      "img_url": "20408058_HorizonForbiddenWestPS4_thumb_0.png",
+      "title": "Horizon Forbidden West - PS4",
+      "price": "69,9€",
+      "genre": "Action/Adventure",
+      "company": "Sony",
+      "platform": "PS4",
+      "id": "8a436031-9fbd-46f1-be4a-88d01698ef62",
+      "favorite": false
+    },
+    {
+      "img_url": "20408925_TinyTina039sWonderlandsPS4_thumb_0.png",
+      "title": "Tiny Tina's Wonderlands - PS4",
+      "price": "44,9€",
+      "genre": "RolePlaying(RPG)",
+      "company": "2KGames",
+      "platform": "PS4",
+      "id": "f737f5c7-4520-41f6-b4f8-9d9d5c6aef4d",
+      "favorite": false
+    }
+  ]
+}

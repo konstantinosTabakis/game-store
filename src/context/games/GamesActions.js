@@ -1,3 +1,8 @@
+import data from '../../db.json'
+
+
+//API Methods
+
 const api=  process.env.REACT_APP_API_URL
 
 export const getGames = async ()=>{
@@ -19,6 +24,13 @@ export const updateGame =async(id, newItm)=>{
     })
      
     const data= await response.json()
+}
+
+//No Api Methods
+
+
+export const getGamesLocal = ()=>{
+  return data.games
 }
 
    
