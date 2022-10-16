@@ -8,13 +8,24 @@ import { updateGame } from "../../context/games/GamesActions"
 function GameCard({el}) {
   const {games,dispatch} = useContext(GamesContext)
   const {items,dispatcher} = useContext(CartContext)
-
+  
+  
   const heartColor= el.favorite ? '#D81E00': "#c8d8e5"
+  
   const handleFav = ()=>{
-
     const newItm = {...el,favorite :!el.favorite}
     dispatch({type:'EDIT_GAME', payload: newItm })
-    updateGame(el.id, newItm)
+    // updateGame(el.id, newItm)
+
+
+
+    //********LOCAL STORAGE */
+    const array = localStorage.getItem('favorites');
+    const parsedArray = array ? JSON.parse(array) : [];
+
+    const newArray =  parsedArray.includes(el.id)? parsedArray.filter((item)=> item!= el.id) : [...parsedArray, el.id]
+    localStorage.setItem('favorites', JSON.stringify(newArray));
+
   }
 
   const addToCart = ()=>{
