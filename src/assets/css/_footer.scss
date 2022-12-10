@@ -49,15 +49,38 @@ footer{
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     footer{
         .footer-inner{
-            @include flex(center,center);
+            @include flex(center,start);
             margin: 0 auto ;
-            padding: 190px 15px 20px;
+            padding: 190px 30px 20px;
             gap: 50px;
             flex-wrap: nowrap;
             flex-direction: column;
+             
+        }  
+    }
+}
+// @media screen and (max-width: 500px) {
+//     footer{
+//         .footer-inner{
+//             @include flex(center,center);
+//             margin: 0 auto ;
+//             padding: 190px 15px 20px;
+//             gap: 50px;
+//             flex-wrap: nowrap;
+//             flex-direction: column;
+             
+//         }  
+//     }
+// }
+@media screen and (min-width: 2500px) {
+    footer{
+        background: $primary-color;
+        @include flex(center,center);
+        .footer-inner{
+             padding: 0;
              
         }  
     }

@@ -1,4 +1,4 @@
-@import 'typography', 'utilities','classes', 'header','footer';
+@import 'typography', 'utilities','classes', 'header','footer','about';
 
 //**************Home Page**************
 .hero{
@@ -312,6 +312,7 @@
             margin: 15px auto;
             border-radius: 5px;
             box-shadow: $shadow;
+            position: relative;
             .title{
                 font-weight: 700;
                 margin-bottom: 10px;
@@ -322,13 +323,26 @@
                 padding: 5px;
                 border-radius: 5px;
                 margin: 0 5px;
+                font-weight: 600;
             }
             .title + div, .title + div+ div{
                 margin-bottom: 10px;
             }
-
+            .item-price{
+                font-weight: 600;
+            }
             .util-btn{
-                cursor: pointer;
+                cursor: pointer;          
+            }
+            .delete-icon svg{
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+            .right-itm button{
+                background: transparent;
+                border: none;
+
             }
              
         }
@@ -416,6 +430,17 @@
         }
     }
 }
+.not-found{
+    font-size: 24px;
+    @include flex(center, center);
+    flex-direction: column;
+    gap: 16px;
+    .btn{
+        background: $active-link-color;
+        color: #fff;
+        font-size: 16px;
+    }
+}
 
 @media screen and (max-width: 1050px) {
     .hero{
@@ -467,6 +492,7 @@
                 img{
                     max-width: 100%;
                 }
+                
             }
         }
     }

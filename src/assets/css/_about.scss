@@ -1,0 +1,19 @@
+.about{
+    color: $primary-color;
+    margin-bottom: 80px;
+    font-size: 20px;
+    img{
+        margin-bottom: 32px;
+    }
+    p{
+        margin-bottom: 16px;
+    }
+    a{
+        color:$active-link-color;
+        font-weight: 500;
+    }
+    p:last-child{
+        color: $primary-color;
+        font-weight: 600;
+    }
+}

@@ -45,9 +45,9 @@ function Cart() {
                 </div>
                 <div className="right-itm">
                   <div className="title">{item.title} </div>
-                  <div> Quantity :  <FaMinusCircle className="util-btn" onClick={() => dcr(item)} /> <span className="quantity">{item.quantity}</span>  <FaPlusCircle className="util-btn" onClick={() => inc(item)} /></div>
-                  <div>Price: {item.price}</div>
-                  <div> <FaRegTrashAlt className="util-btn" onClick={() => handleDelete(item)} /></div>
+                  <div> Quantity :  <button onClick={() => dcr(item)}><FaMinusCircle  className="util-btn"  /></button>  <span className="quantity">{item.quantity}</span> <button onClick={() => inc(item)}> <FaPlusCircle className="util-btn"  /></button> </div>
+                  <div>Price: <span className="item-price">{item.price}</span> </div>
+                  <div className="delete-icon"> <FaRegTrashAlt className="util-btn" onClick={() => handleDelete(item)} /></div>
                 </div>
 
               </div>
